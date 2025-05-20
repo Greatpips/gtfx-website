@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+}
+
+
+
+form {
+    background-color: #2e674f;
+    height: 100%;  
+    padding: 2em 3em 5em 3em;
+    width: 100%;
+    border-radius:5px ;
+}
+
+
+
+form .order-form-texts {
+    text-align: center;
+    margin: 0 0 1.5em 0;
+}
+
+ form .order-form-texts h3{
+    font-size: 1.43rem;
+}
+
+ form .order-form-texts p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+ form .name-div label{
+  font-size: 0.9rem;
+  font-weight: bolder;
+  line-height: 2;
+}
+
+ form .name-div input[type="text"] {
+    font-family: Poppins, Arial, "Helvetica Neue", sans-serif;;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.8em;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: gray;
+    background-color: #fafafa;
+} 
+
+.phone-wrapper {
+    display: flex;
+    margin: 1.5em 0 0 0;
+}
+
+.phone-wrapper select {
+    font-family: Poppins, Arial, "Helvetica Neue", sans-serif;;
+    width: 40%;
+    font-size: 1.1rem;
+    padding: 0.8em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: gray;
+    background-color: #fafafa;
+}
+
+
+
+.phone-wrapper input[type="number"] {
+     font-family: Poppins, Arial, "Helvetica Neue", sans-serif;;
+    width: 60%;
+    font-size: 1.1rem;
+    padding: 0.8em;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: gray;
+    background-color: #fafafa;
+
+}
+
+input[type="email"] {
+     font-family: Poppins, Arial, "Helvetica Neue", sans-serif;;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.8em;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: gray;
+    margin: 2em 0 1em 0;
+    background-color: #fafafa;
+}
+
+
+
+.phone-wrapper~label{
+   font-size: 0.9rem;
+}
+
+.check {
+    display: flex;
+    flex-direction: column;
+    margin:  0 0 1em 1em;
+}
+
+.check-1 {
+    margin: 0.3em 0 1em 0;
+}
+
+input[type="checkbox"] {
+    margin: 0 1em 0 0;
+}
+
+.check label {
+    font-size: 0.9rem;
+}
+
+.last-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-input label {
+    font-size: 0.95rem;
+}
+
+.last-input input[type="text"] {
+ font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.8em;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: gray;
+     background-color: #fafafa;
+     margin: 0 0 2.5em 0;
+}
+
+ .form-button{
+  text-align: center;
+  margin: 2em 0 0 0;
+}
+
+
+.form-button a button {
+    font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    transition: 0.2s ease-in;
+}
+
+.form-button a button:hover {
+    background-color: #3868cd;
+}
+
+@media only screen and (min-width:992px)  {
+  .main-form {
+   margin: 0 18em;
+  }
+}
+
+

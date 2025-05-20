@@ -1,0 +1,381 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.main-div {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ .flex h2:first-child  {
+font-family: Nunito, sans-serif;
+font-weight: lighter;
+line-height: 50px;
+color: rgb(224, 16, 16);
+text-align: center;
+margin: 0.5em 2em;
+}
+
+
+.flex h2:last-child {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 1em 3em;
+}
+
+.first-video iframe{
+    display: grid;
+    max-width: 100%;
+    min-height: 100%;
+    padding: 0 1em;
+}
+
+.second-text p{
+font-family: Nunito, sans-serif;
+font-size: 19px;
+font-weight: 500;
+line-height: 35px;
+color: rgb(0, 0, 0);
+margin: 1em 0 3em 1em;
+}
+
+.third-text p {
+font-family: Nunito, sans-serif;
+font-size: 1.21rem;
+font-weight: 500;
+line-height: 43px;
+color: rgb(0, 0, 0);
+}
+
+.icon-1 {
+    display: flex;
+    align-items: center;
+
+}
+
+.icon-1 i {
+    font-size: 1.3rem;
+    margin: 0 1em 0 1em;
+    color: #2f9436;
+}
+
+.third-text > p {
+    margin: 1.5em 0 2.5em 1em;
+    font-size: 1.25rem;
+}
+
+
+.second-part h2 {
+    text-align: center;
+    margin: 0 0 1em 0;
+}
+
+.second-part p {
+font-family: Nunito, sans-serif;
+font-size: 1.21rem;
+font-weight: 500;
+line-height: 43px;
+color: rgb(0, 0, 0);
+}
+
+.icon-2 {
+   display: flex;
+   align-items: center;
+}
+
+.icon-2 i {
+    font-size: 1.3rem;
+    margin: 0 1em 0 1em;
+    color: #2f9436; 
+}
+
+.second-part-text>p {
+    font-size: 1.25rem;
+    margin: 0 0 2em 1em;
+}
+
+.second-part-second-text p {
+    margin: 2em 0 0 1em;
+    line-height: 1.7;
+}
+
+.second-part-second-text p span {
+    font-weight: bold;
+}
+
+.third-part {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 1.5em 0 2em 0;
+}
+
+.third-part .video {
+    margin: 0 0 2em 0;
+}
+
+.third-part .video iframe {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.third-part .video h2 {
+    margin: 0 0 1.7em 0 ;
+    font-size: 1.7rem;
+}
+
+.testimonial h2{
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 0 0 1.5em 0;
+}
+
+.testimonial-img img {
+    width: 100%;
+}
+
+.testimonial-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 0 1em 0;
+}
+
+.testimonial-videos {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+.testimonial-videos-1 iframe{
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.testimonial-texts-1 p {
+    font-size: 1.21rem;
+    margin: 0 0 2em 1em;
+    line-height: 1.8;
+}
+
+.testimonial-text-icon {
+   display: flex;
+   align-items: center;
+   margin: 0 0 1.5em 0;
+}
+
+.testimonial-text-icon i {
+    font-size: 1.3rem;
+    margin: 0 1em 0 1em;
+    color: #2f9436; 
+}
+
+.testimonial-text-icon p {
+    font-size: 1.21rem;
+    
+}
+
+.testimonial-texts-3 p {
+     font-size: 1.21rem;
+     line-height: 1.8;
+     margin: 2em 0 2em 1em;
+}
+
+.imagine-texts h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:bolder;
+}
+
+.imagine-texts p {
+    font-size: 1.21rem;
+    margin: 2em 0 2em 1em;
+    line-height: 1.8;
+}
+
+.imagine-obj-icon {
+    display: flex;
+    align-items: center;
+    margin: 0 0 1em 0;
+}
+
+.imagine-obj-icon i {
+    font-size: 1.3rem;
+    margin: 0 1em 0 1em;
+    color: #2f9436;
+}
+
+.imagine-obj-icon p {
+    font-size: 1.21rem;
+}
+
+.imagine-obj {
+    margin: 0 0 2.5em 0;
+}
+
+.farmlands-texts h3 {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight:bolder;
+}
+
+.cassava h3 {
+    font-size: 1.6rem;
+    margin: 2em 0 2em 1em;
+}
+
+.cassava-texts p {
+    font-size: 1.21rem;
+    margin: 0 0 0 1.2em;
+    line-height:1.8 ;
+}
+
+.cassava-texts p span {
+    font-weight: bold;
+}
+
+.links-1{
+    text-align: center;
+    margin: 1em 0 0 0;
+}
+
+a button{
+   text-align: center;
+   background-color:#2f9436;
+   border: 1px solid #2f9436;
+   font-size: 0.9rem;
+   padding: 1.4em 2.5em;
+   color: white;
+   transition: 0.2s ease-in;
+}
+
+a button:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid #2f9436;
+}
+
+.timber-texts h3 {
+    font-size: 1.6rem;
+    margin: 2em 0 1.5em 1em;
+}
+
+.timber-texts p {
+    font-size: 1.21rem;
+    margin: 0 0 0 1.2em;
+    line-height:1.8 ;
+}
+
+.timber-texts p span {
+font-weight: bolder;
+}
+
+.timber-obj ol {
+    margin: 0 0 0 1.5em;
+}
+
+.timber-obj ol li {
+    font-size: 1.21rem;
+    line-height: 1.7;
+}
+
+.timber-obj p {
+    font-size: 1.21rem;
+    margin: 0.5em 0 0 1.2em;
+    line-height: 1.7;
+}
+
+.timber-obj p span {
+    font-weight: bolder;
+}
+
+.timber-end {
+    margin: 2em 0;
+}
+
+.timber-end p {
+font-size: 1.21rem;
+line-height: 1.7;
+margin: 0 0 0 1.2em;
+}
+
+.timber-end p span {
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px)  {
+    .testimonial-img {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+}
+
+@media only screen and (max-width:600px) {
+  .testimonial-img {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+
+}
+
+
+
