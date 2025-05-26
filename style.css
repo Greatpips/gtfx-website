@@ -122,6 +122,44 @@ color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
+.icon-how i {
+    font-size: 1.3rem;
+    margin: 0 1em 0 1em;
+    color: #2f9436; 
+}
+
+.icon-how {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.icon-how p {
+font-family: Nunito, sans-serif;
+font-size: 1.21rem;
+font-weight: 500;
+line-height: 43px;
+color: rgb(0, 0, 0);
+}
+
+.easiest {
+    line-height: 2;
+    text-align: left;
+}
+
+.easiest p {
+ font-family: Nunito, sans-serif;
+font-size: 1.21rem;
+font-weight: 500;
+line-height: 43px;
+color: rgb(0, 0, 0);
+margin: 0 0 0 1em;
+}
+
+.easiest span {
+    font-weight: bold;
+}
+
 .third-part {
     display: flex;
     flex-direction: column;
@@ -212,61 +250,6 @@ color: rgb(0, 0, 0);
     line-height: 1.8;
 }
 
-.imagine-obj-icon {
-    display: flex;
-    align-items: center;
-    margin: 0 0 1em 0;
-}
-
-.imagine-obj-icon i {
-    font-size: 1.3rem;
-    margin: 0 1em 0 1em;
-    color: #2f9436;
-}
-
-.imagine-obj-icon p {
-    font-size: 1.21rem;
-}
-
-.imagine-obj {
-    margin: 0 0 2.5em 0;
-}
-
-.farmlands-texts h3 {
-    text-align: center;
-    font-size: 1.7rem;
-    font-weight:bolder;
-}
-
-.cassava h3 {
-    font-size: 1.6rem;
-    margin: 2em 0 2em 1em;
-}
-
-.cassava-texts p {
-    font-size: 1.21rem;
-    margin: 0 0 0 1.2em;
-    line-height:1.8 ;
-}
-
-.cassava-texts p span {
-    font-weight: bold;
-}
-
-.links-1{
-    text-align: center;
-    margin: 1em 0 0 0;
-}
-
-a button{
-   text-align: center;
-   background-color:#2f9436;
-   border: 1px solid #2f9436;
-   font-size: 0.9rem;
-   padding: 1.4em 2.5em;
-   color: white;
-   transition: 0.2s ease-in;
-}
 
 a button:hover {
     color: black;
@@ -274,55 +257,128 @@ a button:hover {
     border: 1px solid #2f9436;
 }
 
-.timber-texts h3 {
-    font-size: 1.6rem;
-    margin: 2em 0 1.5em 1em;
+.available {
+    margin: 0 0 0 1em;
 }
 
-.timber-texts p {
+.available-text h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:bolder;
+}
+
+.trading-portfolios {
+    margin: 0.8em 0 0 0;
+}
+
+.trading-portfolios h4 {
+    font-size: 1.3rem;
+    font-weight:bolder;
+}
+
+.trading-portfolios p {
     font-size: 1.21rem;
-    margin: 0 0 0 1.2em;
-    line-height:1.8 ;
+    line-height: 1.2;
 }
 
-.timber-texts p span {
-font-weight: bolder;
+.Premium {
+    margin: 0 0 0 1em;
 }
 
-.timber-obj ol {
-    margin: 0 0 0 1.5em;
+
+.Premium h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:bolder;
+    margin: 1em 0 0 0;
 }
 
-.timber-obj ol li {
+.Premium p {
     font-size: 1.21rem;
-    line-height: 1.7;
+    margin: 0.2em 0 0 0;
 }
 
-.timber-obj p {
+.trading-portfolios-2 h4 {
+    font-size: 1.3rem;
+    font-weight:bold;
+}
+
+.trading-portfolios-2 {
+    margin: 0.8em 0 0 0;
+}
+
+
+.important {
+  margin: 1em 0 0 1em;
+}
+
+.important h3 {
+    font-size: 1.3rem;
+    font-weight:bold;
+    margin: 0 0 0.5em 0;
+}
+
+.important p {
     font-size: 1.21rem;
-    margin: 0.5em 0 0 1.2em;
-    line-height: 1.7;
+    line-height: 1.3;
 }
 
-.timber-obj p span {
-    font-weight: bolder;
+.important p span {
+    font-weight: bold;
 }
 
-.timber-end {
-    margin: 2em 0;
+.important-link {
+    text-align: center;
+    margin: 1em 0 1em 0;
 }
 
-.timber-end p {
-font-size: 1.21rem;
-line-height: 1.7;
-margin: 0 0 0 1.2em;
+a button{
+   background-color:#2f9436;
+   border: 1px solid #2f9436;
+   font-size: 1.2rem;
+   padding: 1em 1.5em;
+   color: white;
+   border-radius: 5px;
+   animation-name: button;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-direction: alternate-reverse;
 }
 
-.timber-end p span {
-    font-weight: bolder;
+@keyframes button {
+    0%{
+        color: red;
+    }
+
+    20%{
+        color: orange;
+    }
+
+    40%{
+       color: yellow;
+    }
+
+    60%{
+        color: darkgreen;
+    } 
+
+    80%{
+        color: blue;
+    }
+
+    90%{
+        color: indigo;
+    }
+
+    95%{
+        color: violet;
+    }
+
+    100%{
+        color: white;
+    }
 }
-
-
 
 
 
