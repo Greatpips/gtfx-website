@@ -1,19 +1,19 @@
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Nunito, sans-serif;
+    background-color: aliceblue;
 }
 
-body {
-    width: 100%;
+i {
+    color: rgb(119, 118, 118);
 }
+
+
 
 .main-div {
-  display: grid;
-  grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .flex {
@@ -23,47 +23,49 @@ body {
     flex-wrap: wrap;
 }
 
- .flex h2:first-child  {
-font-family: Nunito, sans-serif;
-font-weight: lighter;
-line-height: 50px;
-color: rgb(224, 16, 16);
-text-align: center;
-margin: 0.5em 2em;
+.flex h2 {
+    font-family: "Poppins", sans-serif;
+    color: rgb(87, 86, 86);
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.flex h2:first-child span {
+    display: block;
 }
 
 
-.flex h2:last-child {
+.flex p {
+    font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 40px;
-    color: rgb(0, 0, 0);
     text-align: center;
     margin: 1em 3em;
 }
 
-.first-video iframe{
+.first-video iframe {
     display: grid;
     max-width: 100%;
     min-height: 100%;
     padding: 0 1em;
 }
 
-.second-text p{
-font-family: Nunito, sans-serif;
-font-size: 19px;
-font-weight: 500;
-line-height: 35px;
-color: rgb(0, 0, 0);
-margin: 1em 0 3em 1em;
+.second-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 35px;
+    margin: 1em 0 3em 1em;
 }
 
 .third-text p {
-font-family: Nunito, sans-serif;
-font-size: 1.21rem;
-font-weight: 500;
-line-height: 43px;
-color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.21rem;
+    font-weight: 500;
+    line-height: 43px;
 }
 
 .icon-1 {
@@ -75,47 +77,50 @@ color: rgb(0, 0, 0);
 .icon-1 i {
     font-size: 1.3rem;
     margin: 0 1em 0 1em;
-    color: #2f9436;
+    padding: 0 0 0.6em 0;
 }
 
-.third-text > p {
-    margin: 1.5em 0 2.5em 1em;
+.third-text>p {
     font-size: 1.25rem;
+    font-family: "Poppins", sans-serif;
 }
 
 
 .second-part h2 {
     text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: rgb(87, 86, 86);
     margin: 0 0 1em 0;
 }
 
 .second-part p {
-font-family: Nunito, sans-serif;
-font-size: 1.21rem;
-font-weight: 500;
-line-height: 43px;
-color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.21rem;
+    font-weight: 500;
+    line-height: 43px;
 }
 
 .icon-2 {
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .icon-2 i {
     font-size: 1.3rem;
     margin: 0 1em 0 1em;
-    color: #2f9436; 
+    padding: 0 0 0.6em 0;
 }
 
 .second-part-text>p {
     font-size: 1.25rem;
     margin: 0 0 2em 1em;
+    font-family: "Poppins", sans-serif;
 }
 
 .second-part-second-text p {
     margin: 2em 0 0 1em;
     line-height: 1.7;
+    font-family: "Poppins", sans-serif;
 }
 
 .second-part-second-text p span {
@@ -125,7 +130,7 @@ color: rgb(0, 0, 0);
 .icon-how i {
     font-size: 1.3rem;
     margin: 0 1em 0 1em;
-    color: #2f9436; 
+    padding: 0 0 0.6em 0;
 }
 
 .icon-how {
@@ -135,11 +140,10 @@ color: rgb(0, 0, 0);
 }
 
 .icon-how p {
-font-family: Nunito, sans-serif;
-font-size: 1.21rem;
-font-weight: 500;
-line-height: 43px;
-color: rgb(0, 0, 0);
+    font-size: 1.21rem;
+    font-weight: 500;
+    line-height: 43px;
+    font-family: "Poppins", sans-serif;
 }
 
 .easiest {
@@ -148,12 +152,12 @@ color: rgb(0, 0, 0);
 }
 
 .easiest p {
- font-family: Nunito, sans-serif;
-font-size: 1.21rem;
-font-weight: 500;
-line-height: 43px;
-color: rgb(0, 0, 0);
-margin: 0 0 0 1em;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.21rem;
+    font-weight: 500;
+    line-height: 43px;
+    color: rgb(0, 0, 0);
+    margin: 0 0 0 1em;
 }
 
 .easiest span {
@@ -178,33 +182,37 @@ margin: 0 0 0 1em;
 }
 
 .third-part .video h2 {
-    margin: 0 0 1.7em 0 ;
+    margin: 0 0 1.7em 0;
     font-size: 1.7rem;
 }
 
-.testimonial h2{
+.testimonial h2 {
     text-align: center;
     font-size: 1.7rem;
     margin: 0 0 1.5em 0;
+    font-family: "Poppins", sans-serif;
+    color: rgb(87, 86, 86);
 }
 
 .testimonial-img img {
     width: 100%;
+    object-fit: contain;
 }
 
 .testimonial-img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0 0 1em 0;
+    gap: 1em;
+
 }
 
 .testimonial-videos {
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     align-items: center;
 }
 
-.testimonial-videos-1 iframe{
+.testimonial-videos-1 iframe {
     max-width: 100%;
     min-height: 100%;
 }
@@ -213,41 +221,48 @@ margin: 0 0 0 1em;
     font-size: 1.21rem;
     margin: 0 0 2em 1em;
     line-height: 1.8;
+    font-family: "Poppins", sans-serif;
 }
 
 .testimonial-text-icon {
-   display: flex;
-   align-items: center;
-   margin: 0 0 1.5em 0;
+    display: flex;
+    align-items: center;
+    margin: 0 0 1.5em 0;
+    gap: 1em;
 }
 
 .testimonial-text-icon i {
     font-size: 1.3rem;
     margin: 0 1em 0 1em;
-    color: #2f9436; 
 }
 
 .testimonial-text-icon p {
     font-size: 1.21rem;
-    
+    font-family: "Poppins", sans-serif;
+
 }
 
 .testimonial-texts-3 p {
-     font-size: 1.21rem;
-     line-height: 1.8;
-     margin: 2em 0 2em 1em;
+    font-size: 1.21rem;
+    line-height: 1.8;
+    margin: 2em 0 2em 1em;
+    font-family: "Poppins", sans-serif;
 }
 
 .imagine-texts h3 {
     text-align: center;
     font-size: 1.5rem;
-    font-weight:bolder;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    color: rgb(87, 86, 86);
+
 }
 
 .imagine-texts p {
     font-size: 1.21rem;
     margin: 2em 0 2em 1em;
     line-height: 1.8;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -264,7 +279,9 @@ a button:hover {
 .available-text h3 {
     text-align: center;
     font-size: 1.5rem;
-    font-weight:bolder;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    color: rgb(87, 86, 86);
 }
 
 .trading-portfolios {
@@ -273,12 +290,15 @@ a button:hover {
 
 .trading-portfolios h4 {
     font-size: 1.3rem;
-    font-weight:bolder;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    color: rgb(87, 86, 86);
 }
 
 .trading-portfolios p {
     font-size: 1.21rem;
     line-height: 1.2;
+    font-family: "Poppins", sans-serif;
 }
 
 .Premium {
@@ -289,18 +309,23 @@ a button:hover {
 .Premium h3 {
     text-align: center;
     font-size: 1.5rem;
-    font-weight:bolder;
+    font-weight: bolder;
     margin: 1em 0 0 0;
+    font-family: "Poppins", sans-serif;
+    color: rgb(87, 86, 86);
 }
 
 .Premium p {
     font-size: 1.21rem;
     margin: 0.2em 0 0 0;
+    font-family: "Poppins", sans-serif;
 }
 
 .trading-portfolios-2 h4 {
     font-size: 1.3rem;
-    font-weight:bold;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: rgb(87, 86, 86);
 }
 
 .trading-portfolios-2 {
@@ -309,18 +334,21 @@ a button:hover {
 
 
 .important {
-  margin: 1em 0 0 1em;
+    padding: 1em 0 0 1em;
 }
 
 .important h3 {
     font-size: 1.3rem;
-    font-weight:bold;
+    font-weight: bold;
     margin: 0 0 0.5em 0;
+    font-family: "Poppins", sans-serif;
+    color: rgb(87, 86, 86);
 }
 
 .important p {
     font-size: 1.21rem;
     line-height: 1.3;
+    font-family: "Poppins", sans-serif;
 }
 
 .important p span {
@@ -332,52 +360,19 @@ a button:hover {
     margin: 1em 0 1em 0;
 }
 
-a button{
-   background-color:#2f9436;
-   border: 1px solid #2f9436;
-   font-size: 1.2rem;
-   padding: 1em 1.5em;
-   color: white;
-   border-radius: 5px;
-   animation-name: button;
-   animation-duration: 4s;
-   animation-iteration-count: infinite;
-   animation-timing-function: linear;
-   animation-direction: alternate-reverse;
+a button {
+    background-color: rgb(113, 113, 240);
+    border: 0.1px solid blue;
+    font-size: 1.2rem;
+    padding: 1em 1.5em;
+    color: whitesmoke;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
 }
 
-@keyframes button {
-    0%{
-        color: red;
-    }
-
-    20%{
-        color: orange;
-    }
-
-    40%{
-       color: yellow;
-    }
-
-    60%{
-        color: darkgreen;
-    } 
-
-    80%{
-        color: blue;
-    }
-
-    90%{
-        color: indigo;
-    }
-
-    95%{
-        color: violet;
-    }
-
-    100%{
-        color: white;
-    }
+.a button:hover{
+    background-color: rgb(113, 113, 240);
+    border: 0.1px solid blue;
 }
 
 
@@ -415,23 +410,167 @@ a button{
 
 
 
-
-
-@media only screen and (max-width:768px)  {
+@media only screen and (max-width:768px) {
     .testimonial-img {
-    display: grid;
-    grid-template-columns:  1fr 1fr;
-}
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1em 0;
+    }
+
+    .testimonial-videos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 @media only screen and (max-width:600px) {
-  .testimonial-img {
+
+    .flex h2 {
+        font-size: 1.5rem;
+    }
+
+    .first-text p {
+       font-size: 1.2rem;
+    }
+
+    .icon-1 i {
+        font-size: 1rem;
+        margin:  0.7em 1.5em;
+    }
+
+    .icon-2 i {
+        font-size: 1rem;
+        margin:  0.7em 1.5em;
+    }
+
+    .icon-1 p {
+        font-size: 0.9rem;
+    }
+
+    .flex p {
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .second-part h2  {
+        font-size:17px;
+    }
+
+    .second-part p {
+        font-size: 1rem;
+    }
+
+    .second-text p {
+        font-size: 0.9rem;
+        
+    }
+
+    .third-text p {
+        font-size: 1rem;
+    }
+    
+    .testimonial-img {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 1em;
+    }
+
+    .third-part h2 {
+        font-size: 1.2rem;
+    }
+
+    .third-part p {
+        font-size: 1rem;
+    }
+
+    .third-part .video h2 {
+    font-size: 1.2rem;
+}
+
+    .testimonial h2 {
+     font-size: 1.2rem;
+}
+
+    .imagine-texts h3{
+       font-size: 1.2rem;
+    }
+
+    .imagine-texts p {
+        font-size: 1rem;
+    }
+
+    .available-text h3 {
+        font-size: 1.2rem;
+    }
+
+    .trading-portfolios h4 {
+        font-size: 1.1rem;
+    }
+
+    .trading-portfolios p {
+        font-size: 1rem;
+    }
+
+    .Premium h3 {
+        font-size: 1.2rem;
+    }
+
+    .Premium p {
+        font-size: 1rem;
+    }
+
+    .trading-portfolios-2 h4 {
+        font-size: 1.1rem;
+    }
+
+    .important h3 {
+        font-size: 1.2rem;
+    }
+
+    .important p {
+        font-size: 1rem;
+    }
+
+    a button {
+    background-color: rgb(113, 113, 240);
+    border: 0.1px solid blue;
+    font-size: 1rem;
+    padding: 0.5em 0.75em;
+    color: whitesmoke;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+}
+
+.a button:hover{
+    background-color: rgb(113, 113, 240);
+    border: 0.1px solid blue;
+}
+
+  .testimonial-videos videos{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em;
+  }
+
+  .testimonial-videos .testimonial-videos-1 {
+      height: 400px;
+      padding: 1em;
+  }
+
+  .container-min {
     display: grid;
     grid-template-columns: 1fr;
   }
 
+  .container-min .video {
+    padding: 5em ;
+     height: 400px;
+  }
+
+
+
 
 }
-
-
-
